@@ -11,7 +11,7 @@ if os.path.isfile("README.rst"):
 setup(
     name='indexnow',
     packages=['indexnow'],
-    version='0.9.9',
+    version='0.9.10',
     license='MIT',
     description='An IndexNow URL submitter for Python.',
     long_description=long_description,
