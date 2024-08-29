@@ -44,6 +44,6 @@ class IndexNow:
         # Handle any error responses
         response.raise_for_status()
 
-        logger.error(f"IndexNow Response: {response.status_code}")
+        logger.debug(f"IndexNow Response: {response.status_code}")
 
         return  response.status_code
